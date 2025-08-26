@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Ciclo_vida from "../Assets/ciclo-vida.png";
 
 const Ciclo_vida = () => {
     const [nombre, setNombre] = useState("");
@@ -28,7 +29,7 @@ const Ciclo_vida = () => {
 
             {/* 2 caja */}
             <div className="ciclo_vida">
-                <img src="/ciclo-vida.png" alt="Ciclo de Vida de un Componente en React" />
+                <img src={Ciclo_vida} alt="Ciclo de Vida de un Componente en React" />
             </div>
 
             {/* 3 caja */}

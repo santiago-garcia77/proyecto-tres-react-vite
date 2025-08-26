@@ -1,4 +1,5 @@
 import { useState } from "react";
+import virtualdom from "../assets/virtualdom.png";
 
 const Virtual_dom = () => {
   // Estado para el contador
@@ -22,7 +23,7 @@ const Virtual_dom = () => {
 
       {/* 2 caja */}
       <div className="virtual_dom">
-        <img src="/virtualdom.png" alt="Logo de Virtual DOM" />
+        <img src={virtualdom} alt="Logo de Virtual DOM" />
       </div>
 
       {/* 3 caja */}

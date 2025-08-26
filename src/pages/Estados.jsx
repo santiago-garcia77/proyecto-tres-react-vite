@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import estados from '../Assets/estados.jpg';
 
 const Estados = () => {
   // Estado para el ejemplo de la caja 3
@@ -33,7 +34,7 @@ const Estados = () => {
 
       {/* 2 caja */}
       <div className="estados">
-        <img src="/estados.jpg" alt="estados en react" />
+        <img src={estados} alt="estados en react" />
       </div>
 
       <br />

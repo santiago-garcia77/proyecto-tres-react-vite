@@ -1,3 +1,6 @@
+import node from '../Assets/node.png';
+import react from '../Assets/react.jpg';
+
 const Inicio = () => {
     return(
     <div>
@@ -19,7 +22,7 @@ const Inicio = () => {
                  vez que ocurre un cambio, React crea una copia virtual del DOM (la estructura de la página) 
                  y actualiza solo las partes que realmente cambiaron. Esto hace que las aplicaciones sean más 
                  rápidas y con un mejor rendimiento.</p>
-            <img src="/react.jpg" alt="logo de react" />
+            <img src={react} alt="logo de react" />
             <br />
             <br />
             <br />
@@ -75,7 +78,7 @@ const Inicio = () => {
                 de manera más organizada y cómoda.</li>
             </ul>
 
-                <img src="/node.png" alt="logo de node js" />
+                <img src={node} alt="logo de node js" />
 
             </div>
 

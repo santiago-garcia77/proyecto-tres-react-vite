@@ -1,5 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import redux from "../Assets/redux.png";
 
 const initialState = { theme: "claro" };
 
@@ -46,7 +47,7 @@ const Redux = () => {
 
       {/* 2 caja */}
       <div className="Redux">
-        <img src="/redux.jpg" alt="Logo de Redux" />
+        <img src={redux} alt="Logo de Redux" />
       </div>
 
       {/* 3 caja mejorada visual */}

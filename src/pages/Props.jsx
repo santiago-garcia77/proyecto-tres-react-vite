@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import props from '../Assets/props.png';
 
 const ComponenteHijo = ({ nombre, edad }) => {
   return (
@@ -62,7 +63,7 @@ const Props = () => {
 
       {/* Caja 2: imagen props */}
       <div className="props">
-        <img src="/props.jpg" alt="Props en React" />
+        <img src={props} alt="Props en React" />
       </div>
 
       {/* Caja 3: resultado fijo */}

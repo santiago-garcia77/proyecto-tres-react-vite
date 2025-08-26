@@ -19,7 +19,7 @@ const store = configureStore({
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/proyecto-tres-react-vite">
         <App />
       </BrowserRouter>
     </Provider>

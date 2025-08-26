@@ -22,7 +22,7 @@ const Virtual_dom = () => {
 
       {/* 2 caja */}
       <div className="virtual_dom">
-        <img src="/public/virtualdom.png" alt="Logo de Virtual DOM" />
+        <img src="/virtualdom.png" alt="Logo de Virtual DOM" />
       </div>
 
       {/* 3 caja */}

@@ -33,7 +33,7 @@ const Estados = () => {
 
       {/* 2 caja */}
       <div className="estados">
-        <img src="/public/estados.jpg" alt="estados en react" />
+        <img src="/estados.jpg" alt="estados en react" />
       </div>
 
       <br />

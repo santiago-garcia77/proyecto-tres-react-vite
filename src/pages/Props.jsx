@@ -62,7 +62,7 @@ const Props = () => {
 
       {/* Caja 2: imagen props */}
       <div className="props">
-        <img src="/public/props.jpg" alt="Props en React" />
+        <img src="/props.jpg" alt="Props en React" />
       </div>
 
       {/* Caja 3: resultado fijo */}

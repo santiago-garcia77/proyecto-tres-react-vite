@@ -46,7 +46,7 @@ const Redux = () => {
 
       {/* 2 caja */}
       <div className="Redux">
-        <img src="/public/redux.jpg" alt="Logo de Redux" />
+        <img src="/redux.jpg" alt="Logo de Redux" />
       </div>
 
       {/* 3 caja mejorada visual */}
